@@ -1,0 +1,1 @@
+<h2>Carrito</h2>{% for item in carrito %}<li>{{ item.producto.nombre }} - ${{ item.producto.precio }}</li>{% endfor %}<form method='post'><button type='submit'>Comprar</button></form><a href='/tienda'>Volver a Tienda</a>

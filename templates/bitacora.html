@@ -1,0 +1,1 @@
+<h2>Bitácora</h2><form method='post'><input name='planta'><input name='cantidad'><input name='fecha'><button type='submit'>Registrar</button></form>{% for r in registros %}<li>{{ r.planta }} - {{ r.cantidad }} - {{ r.fecha }}</li>{% endfor %}

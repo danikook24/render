@@ -1,0 +1,1 @@
+<h2>Tienda</h2>{% for p in productos %}<li>{{ p.nombre }} - ${{ p.precio }}</li>{% endfor %}<form method='post'><input name='producto_id'><button type='submit'>Agregar al carrito</button></form><a href='/carrito'>Ver Carrito</a><a href='/historial'>Historial</a>
